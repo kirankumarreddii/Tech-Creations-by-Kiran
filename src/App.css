@@ -1,3 +1,25 @@
+/* Custom styles for your portfolio */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Default styles from React (optional) */
 .App {
   text-align: center;
 }
@@ -35,4 +57,3 @@
   to {
     transform: rotate(360deg);
   }
-}
