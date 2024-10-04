@@ -7,12 +7,16 @@ const HomeSection = styled.section`
   align-items: center;
   justify-content: center;
   background-color: #f0f0f0;
+  text-align: center;
 `;
 
 const Home = () => {
   return (
     <HomeSection>
-      <h1>Welcome to My Portfolio</h1>
+      <div>
+        <h1>Welcome to My Portfolio</h1>
+        <h1>My Portfolio is launching soon...</h1>
+      </div>
     </HomeSection>
   );
 };

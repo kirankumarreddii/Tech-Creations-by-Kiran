@@ -13,7 +13,8 @@ const About = () => {
   return (
     <AboutSection>
       <h1>About Me</h1>
-      <p>This is the about page where you can describe yourself or your background.</p>
+      <p>Im Kiran</p>
+      <p>My Portfolio is launching soon....</p>
     </AboutSection>
   );
 };
